@@ -1,0 +1,134 @@
+.create-place-container {
+  width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.back-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin: 4px 0 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group input[type="file"] {
+  margin: 10px 0;
+}
+
+.image-preview {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.9em;
+}
+
+.add-place-button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-place-button:hover {
+  background-color: #0056b3;
+}
+/* #top_heading{
+  margin: 1px solid black;
+  display: felx;
+  justify-content: centre;
+
+  align-items: center;
+ font-weight: bold;
+} */
+/* .top_heading{ */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold; */
+  /* text-align: center; */
+  /* color:red; */
+/* } */
+.top_heading::after{
+  color: red;
+  content: '*';
+  margin-left:5px;
+  text-align: center;
+}
+#myModal{
+  display: none;
+}
+.close{
+  cursor: pointer;
+}
+#closelink {
+  color:white
+}
+#inputID{
+margin: 0px;
+}
+.navbar{
+  margin-top: -275px;
+  align-self: auto;
+  display: flex;
+}
+/* .formcontainor12 {
+  margin-top: 275px;
+} */
+/* #con1{
+  margin-top: 195px;
+} */
+#card11 {
+  margin-top: 40px;
+}
+#form1{
+  width: 50%;
+  margin-left: 320px;
+}

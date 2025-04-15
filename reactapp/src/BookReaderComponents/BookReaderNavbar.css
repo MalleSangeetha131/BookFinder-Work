@@ -1,0 +1,52 @@
+.book-reader-navbar {
+    background: linear-gradient(90deg, #673ab7, #512da8);
+    color: white;
+    padding: 10px;
+ }
+ .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    
+    margin-right: 450px;
+ }
+ .navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ }
+ .navbar-menu li {
+    margin: 0 15px;
+ }
+ .navbar-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+ }
+ .logout-btn {
+    background-color: #f44336;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: white;
+ }
+ .logout-btn:hover {
+    background-color: #d32f2f;
+ }
+ #userRole2{
+    border: 2px solid #b9c0be;
+    color: #b9c0be;
+    border-radius: 6px;
+    padding: 3px;
+ }
+ .logo1 {
+    padding-right: 84px !important;
+ }
+ .dropdown-menu a{
+   color:black;
+ }
+ #menu1{
+   background-color: #7b7070;
+ }

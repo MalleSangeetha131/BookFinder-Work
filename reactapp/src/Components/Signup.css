@@ -1,0 +1,71 @@
+.signup-bg{
+    height: 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#grad1 {
+    background-image: linear-gradient(rgb(73,247,247),#118866 100%);
+    margin-top: 375px;
+  }
+.formback-signup .login_form{
+    background-color: #fff;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.formback-signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:39px 30px ;
+    border-radius: 8px;
+    width: 450px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.formback-signup h2{
+    margin-bottom: 25px;
+}
+.formback-signup a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #00f;
+}
+.formback-signup .login_form input,select
+{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 8px 5px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.formback-signup .login_form label
+{
+    font-weight: 500;
+    margin-top: 8px;
+}
+.formback-signup .login_form label span{
+    color: #118866;
+}
+.formback-signup .errortxt{
+    color: #f00;
+    font-size: 16px;
+}
+.formback-signup button{
+    width: 100%;
+    height: 35px;
+    color: #fff;
+    border: none;
+    background-color: #00f;
+    border-radius:8px;
+    margin:25px 0px;
+    cursor: pointer;
+}
+ 

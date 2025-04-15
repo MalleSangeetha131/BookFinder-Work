@@ -1,0 +1,21 @@
+@{
+    ViewBag.Title="Error";
+    int statusCode = ViewBag.StatusCode;
+}
+<h1>Error @statusCode</h1>
+@if (statusCode == 404)
+{
+    <p>404 - Page Not Found</p>
+    <p>@ViewBag.ErrorMessage</p>
+}
+else if(statusCode == 500)
+{
+    <p>500 - Server Error</p>
+    <p>@ViewBag.ErrorMessage</p>
+}
+else
+{
+    <p>An error occurred.</p>
+    <p>@ViewBag.ErrorMessage</p>
+}
+<a href="/">Go back to Home</a>

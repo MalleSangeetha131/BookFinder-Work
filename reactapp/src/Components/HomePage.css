@@ -1,0 +1,36 @@
+.homepage-content {
+    text-align: center;
+    margin-top: 30px;
+ }
+ .homepage-banner {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+ }
+ .homepage-banner img {
+    width: 47%;
+    height: auto;
+ }
+ .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+ }
+ .intro-text {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #555;
+ }
+ footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+ }
